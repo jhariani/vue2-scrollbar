@@ -4,7 +4,7 @@
     @click="calculateSize"
     :class="'vue-scrollbar__wrapper' + ( this.classes ? ' ' + this.classes : '' )"
     ref="scrollWrapper"
-    :styles="this.styles">
+    :style="this.styles">
 
     <div
       :class="'vue-scrollbar__area' + ( this.dragging ? ' ' : ' vue-scrollbar-transition')"
